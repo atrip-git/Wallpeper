@@ -89,7 +89,9 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/nature"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="20dp">
+
+                </ImageView>
 
             </androidx.cardview.widget.CardView>
 
@@ -122,7 +124,9 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/bus"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="20dp">
+
+                </ImageView>
 
             </androidx.cardview.widget.CardView>
 
@@ -164,7 +168,9 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/car"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="20dp">
+
+                </ImageView>
 
             </androidx.cardview.widget.CardView>
 
@@ -197,7 +203,9 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/train"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="20dp">
+
+                </ImageView>
 
             </androidx.cardview.widget.CardView>
 
@@ -239,7 +247,9 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/trending"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="20dp">
+
+                </ImageView>
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -274,7 +284,9 @@
                     android:layout_height="50dp"
                     android:clickable="false"
                     android:src="@drawable/trending"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="20dp">
+
+                </ImageView>
 
             </androidx.cardview.widget.CardView>
 
@@ -292,6 +304,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="2dp"
         android:id="@+id/recyclerview"
         android:layout_below="@id/bottomlayout">
 
